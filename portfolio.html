@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio - Portfolio Page</title>
+    <meta property="og:title" content="Portfolio - Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./portfolio.css" rel="stylesheet" />
+
+      <div class="portfolio-container">
+        <div data-role="Header" class="portfolio-navbar-container">
+          <div class="navbar-navbar">
+            <div class="navbar-links-container">
+              <a href="index.html" class="navbar-link"><span>Home</span></a>
+              <a href="portfolio.html" class="navbar-link1">
+                <span>Portfolio</span>
+              </a>
+              <a href="links.html" class="navbar-link2"><span>Links</span></a>
+            </div>
+            <img
+              alt="image"
+              src="public/aelawson-200h.png"
+              class="navbar-image"
+            />
+            <div class="navbar-container"></div>
+            <div data-role="BurgerMenu" class="navbar-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="navbar-mobile-menu">
+              <div class="navbar-container1">
+                <img
+                  alt="image"
+                  src="public/aelawson-200h.png"
+                  class="navbar-image1"
+                />
+                <div data-role="CloseMobileMenu" class="navbar-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="navbar-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="navbar-links-container1">
+                <a href="index.html" class="navbar-link3 Navbar-Link">
+                  <span>Home</span>
+                </a>
+                <a href="portfolio.html" class="navbar-link4 Navbar-Link">
+                  <span>Portfolio</span>
+                </a>
+                <a href="links.html" class="navbar-link5 Navbar-Link">
+                  <span>Links</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-section-separator"></div>
+        <div class="portfolio-section-separator1"></div>
+        <div class="portfolio-container1">
+          <div class="portfolio-blog">
+            <div class="portfolio-container2">
+              <div
+                class="portfolio-post-blog-post-card portfolio-post-root-class-name3"
+              >
+                <img
+                  alt="image"
+                  src="public/title-500w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="portfolio-post-image"
+                />
+                <div class="portfolio-post-container">
+                  <div class="portfolio-post-container1">
+                    <span class="portfolio-post-text"><span>Java</span></span>
+                    <span class="portfolio-post-text1"><span>2023</span></span>
+                  </div>
+                  <h1 class="portfolio-post-text2">
+                    <span>Catpocalypse - Space Invaders</span>
+                  </h1>
+                  <span class="portfolio-post-text3">
+                    <span>Project Description</span>
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="image"
+                src="public/star2-2700h.png"
+                class="portfolio-image"
+              />
+            </div>
+            <img
+              alt="image"
+              src="public/greenstar-2700h.png"
+              class="portfolio-image1"
+            />
+            <div class="portfolio-container3">
+              <div
+                class="portfolio-post-blog-post-card portfolio-post-root-class-name4"
+              >
+                <img
+                  alt="image"
+                  src="public/background-500w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="portfolio-post-image"
+                />
+                <div class="portfolio-post-container">
+                  <div class="portfolio-post-container1">
+                    <span class="portfolio-post-text">
+                      <span>Javascript, CSS, HTML</span>
+                    </span>
+                    <span class="portfolio-post-text1"><span>2024</span></span>
+                  </div>
+                  <h1 class="portfolio-post-text2">
+                    <span>Spotify - Now Listening</span>
+                  </h1>
+                  <span class="portfolio-post-text3">
+                    <span>Project Description</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-container4">
+              <div
+                class="portfolio-post-blog-post-card portfolio-post-root-class-name2"
+              >
+                <img
+                  alt="image"
+                  src="public/background-500w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="portfolio-post-image"
+                />
+                <div class="portfolio-post-container">
+                  <div class="portfolio-post-container1">
+                    <span class="portfolio-post-text"><span>C++</span></span>
+                    <span class="portfolio-post-text1"><span>2023</span></span>
+                  </div>
+                  <h1 class="portfolio-post-text2">
+                    <span>Quirky Password Checker</span>
+                  </h1>
+                  <span class="portfolio-post-text3">
+                    <span>Project Description</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-container5">
+              <div
+                class="portfolio-post-blog-post-card portfolio-post-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/background-500w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="portfolio-post-image"
+                />
+                <div class="portfolio-post-container">
+                  <div class="portfolio-post-container1">
+                    <span class="portfolio-post-text"><span>Java</span></span>
+                    <span class="portfolio-post-text1"><span>2023</span></span>
+                  </div>
+                  <h1 class="portfolio-post-text2">
+                    <span>2D Terrain Generator</span>
+                  </h1>
+                  <span class="portfolio-post-text3">
+                    <span>Project Description</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-container6">
+              <div
+                class="portfolio-post-blog-post-card portfolio-post-root-class-name1"
+              >
+                <img
+                  alt="image"
+                  src="public/background-500w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="portfolio-post-image"
+                />
+                <div class="portfolio-post-container">
+                  <div class="portfolio-post-container1">
+                    <span class="portfolio-post-text">
+                      <span>C++, SFML</span>
+                    </span>
+                    <span class="portfolio-post-text1"><span>2022</span></span>
+                  </div>
+                  <h1 class="portfolio-post-text2"><span>Minesweeper</span></h1>
+                  <span class="portfolio-post-text3">
+                    <span>Project Description</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="public/star2-2700h.png"
+              class="portfolio-image2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
